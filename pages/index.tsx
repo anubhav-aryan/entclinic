@@ -6,6 +6,7 @@ import Services from "@/sections/Services";
 import WhyUs from "@/sections/WhyUs";
 import Doctors from "@/sections/Doctors";
 import AnalyticLabel from "@/components/AnalyticLabel";
+import Appointment from "@/sections/Appointment";
 const index = () => {
   return (
     <div>
@@ -16,6 +17,7 @@ const index = () => {
       <Doctors />
       <AnalyticLabel />
       <Testimonial />
+      <Appointment />
     </div>
   );
 };
