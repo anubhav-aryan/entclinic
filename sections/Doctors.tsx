@@ -14,13 +14,13 @@ const Doctors = () => {
         </div>
         <div className="--items w-full flex flex-wrap justify-between">
           <DoctorCard
-            img="doc1.png"
-            name="Dr. Jane Nicholson"
-            position="Leading Diagnostic Doctor"
+            img=""
+            name="Dr. Swapna. C.A"
+            position="Leading ENT"
             patients={500}
-            hospital="iMedical Central Clinic, LA"
+            hospital="Scent Clinic"
           />
-          <DoctorCard
+          {/* <DoctorCard
             img="doc2.png"
             name="Dr. Allison Pretty"
             position="Consultant Dentist"
@@ -54,7 +54,7 @@ const Doctors = () => {
             position="Leading Diagnostic Doctor"
             patients={900}
             hospital="iMedical Central Clinic, LA"
-          />
+          /> */}
         </div>
       </div>
     </div>

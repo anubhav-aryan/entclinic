@@ -7,7 +7,7 @@ interface Props {
 }
 const TestimonialCard = ({ img, name, review }: Props) => {
   return (
-    <div className="w-[48%] flex justify-between items-start gap-4 p-6 bg-[#faefec] rounded-2xl">
+    <div className="w-[48%] flex justify-between items-start gap-4 p-6 bg-[#faefec] rounded-2xl hover:bg-[#CF7D4E]">
       <Image
         src={`/${img}`}
         alt="logo"
@@ -15,7 +15,7 @@ const TestimonialCard = ({ img, name, review }: Props) => {
         height={60}
         className="w-16"
       />
-      <div className="--testimonial-content flex flex-col h-full gap-2">
+      <div className="--testimonial-content flex flex-col h-full gap-2 ">
         <h1 className="--name text-2xl font-bold">{name}</h1>
         <div className="--rating-box flex gap-2">
           <Image
