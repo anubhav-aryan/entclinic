@@ -15,7 +15,7 @@ const Services = () => {
               className="w-full"
             />
             <div className="--description font-medium text-xl mt-4">
-              Immediate Care
+              Ear infections
             </div>
           </div>
           <div className="--service-item w-[30%] ">
@@ -27,7 +27,7 @@ const Services = () => {
               className="w-full"
             />
             <div className="--description font-medium text-xl mt-4">
-              Dental Care
+              Hearing loss
             </div>
           </div>
           <div className="--service-item w-[30%] ">
@@ -39,7 +39,45 @@ const Services = () => {
               className="w-full"
             />
             <div className="--description font-medium text-xl mt-4">
-              Diagnostic Center
+              Paediatric ENT problems
+            </div>
+          </div>
+        </div>
+        <div className="--items w-full flex justify-between py-10">
+          <div className="--service-item w-[30%] ">
+            <Image
+              src="/service2.png"
+              alt="logo"
+              width={300}
+              height={300}
+              className="w-full"
+            />
+            <div className="--description font-medium text-xl mt-4">
+              Thyroid Problems
+            </div>
+          </div>
+          <div className="--service-item w-[30%] ">
+            <Image
+              src="/service2.png"
+              alt="logo"
+              width={300}
+              height={300}
+              className="w-full"
+            />
+            <div className="--description font-medium text-xl mt-4">
+              Sleep apnea
+            </div>
+          </div>
+          <div className="--service-item w-[30%] ">
+            <Image
+              src="/service2.png"
+              alt="logo"
+              width={300}
+              height={300}
+              className="w-full"
+            />
+            <div className="--description font-medium text-xl mt-4">
+              Snoring
             </div>
           </div>
         </div>

@@ -9,8 +9,8 @@ const WhyUs = () => {
         <div className="--items w-full flex flex-wrap justify-between">
           <InfoCard
             img="info1.svg"
-            heading="DNA Diagnostics"
-            description="We are proud to announce that we provide high quality diagnostics for DNA"
+            heading="Top Facilities"
+            description="State-of-the-art facilities equipped with the latest technology for precise diagnostics and effective treatments."
           />
           <InfoCard
             img="info2.svg"

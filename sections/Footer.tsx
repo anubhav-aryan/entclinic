@@ -11,17 +11,16 @@ const Footer = () => {
             className="flex title-font font-medium items-center text-white mb-4 md:mb-0"
           >
             <Image
-              src="/logo.png"
+              src="/Final Logo Updated.svg"
               alt="logo"
-              width={60}
-              height={60}
-              className="w-8"
+              width={200}
+              height={200}
+              className="w-48"
             />
-            <span className="ml-3 text-xl text-black font-medium">
-              Medicine.
-            </span>
           </Link>
-          <p className="text-subheading">1429 Something Bridge, LA 4281</p>
+          <p className="text-subheading">
+            #27, Silk mill, Gandhi Nagar, Vellore
+          </p>
           <p>Call: (321) 428 321 3902</p>
           <div className="socials flex gap-4">
             <button
