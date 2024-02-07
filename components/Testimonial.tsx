@@ -15,8 +15,8 @@ const Testimonial = () => {
           />
           <TestimonialCard
             img="test2.png"
-            name="Jordan Browler"
-            review="These guys are incredible to work with. Like seriously! They did everything so good, that I did not even imagine it would come up this awesome! Really looking forward to working with them again."
+            name="Tejjas Singh"
+            review="Dr. Swapna is a true lifesaver! Her expertise and personalized care helped me find relief from chronic sinus problems that plagued me for years. From her warm demeanor to his effective treatment plan, I couldn't be more grateful. If you're seeking relief from sinus issues, Dr. Swapna is the one to see. Thank you for improving my quality of life!"
           />
         </div>
       </div>

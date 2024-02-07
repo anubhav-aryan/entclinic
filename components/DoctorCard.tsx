@@ -15,7 +15,7 @@ const DoctorCard = ({ img, name, position, patients, hospital }: Props) => {
         alt="logo"
         width={100}
         height={100}
-        className="w-28"
+        className="w-48"
       />
       <div className="">
         <h1 className="--name text-2xl font-semibold">{name}</h1>

@@ -12,8 +12,9 @@ export default function Hero() {
             Be Healthy
           </div>
           <div className="--sub-heading text-subheading my-6">
-            Our professional team will take care of you, we value your time and
-            health.
+            Dr. Swapna's clinic for ENT, is a medical facility that specializes
+            in diagnosing and treating disorders of the ears, nose, and throat
+            (ENT).
           </div>
           <div className="--informatics w-full h-fit p-6 bg-[#f5eae6] rounded-2xl flex flex-wrap gap-[2%]">
             <Label
@@ -42,8 +43,9 @@ export default function Hero() {
               Make Appointment &rarr;
             </button>
             <div className="flex flex-col gap-2 text-[rgba(207, 125, 78, 1)] font-medium">
-              <p>Mon-Fri 10AM-9PM</p>
-              <p>Sat 10AM-2PM</p>
+              <p>Mon-Tues-Fri-Sat 10AM-1PM, 3PM-7PM</p>
+              <p>Wed-Thur 4PM-7PM</p>
+              <p>Sun Closed</p>
             </div>
           </div>
         </div>

@@ -17,7 +17,7 @@ const TestimonialCard = ({ img, name, review }: Props) => {
       />
       <div className="--testimonial-content flex flex-col h-full gap-2 ">
         <h1 className="--name text-2xl font-bold">{name}</h1>
-        <div className="--rating-box flex gap-2">
+        {/* <div className="--rating-box flex gap-2">
           <Image
             src="/star.svg"
             alt="logo"
@@ -53,7 +53,7 @@ const TestimonialCard = ({ img, name, review }: Props) => {
             height={60}
             className="w-3"
           />
-        </div>
+        </div> */}
         <div className="--review text-subheading">{review}</div>
       </div>
     </div>

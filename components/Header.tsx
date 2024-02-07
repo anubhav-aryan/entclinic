@@ -8,20 +8,17 @@ const Header = () => {
         <div className="container w-wrapper mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <a className="flex title-font font-medium items-center text-white mb-4 md:mb-0">
             <Image
-              src="/logo.png"
+              src="/Final Logo Updated.svg"
               alt="logo"
-              width={60}
-              height={60}
-              className="w-8"
+              width={200}
+              height={200}
+              className="w-52"
             />
-            <span className="ml-3 text-xl text-black font-medium">
-              Medicine.
-            </span>
           </a>
           <div className="md:ml-auto md:mr-auto flex flex-wrap items-center text-lg  font-medium justify-center gap-8 text-[rgba(6, 33, 38, 0.6)]">
             <Link href="/">Home</Link>
             <Link href="/">Our Services</Link>
-            <Link href="/">Blog</Link>
+            {/* <Link href="/">Blog</Link> */}
             <Link href="/">About Us</Link>
             <Link href="/">Contact Us</Link>
           </div>

@@ -8,13 +8,10 @@ const Doctors = () => {
           <div className="--heading font-bold text-4xl">
             Our Qualified Doctors
           </div>
-          <div className="w-fit button border-2 border-[#CF7D4E] text-[#CF7D4E] rounded-full px-6 py-2">
-            See All Doctors &rarr;
-          </div>
         </div>
         <div className="--items w-full flex flex-wrap justify-between">
           <DoctorCard
-            img=""
+            img="Dr_Swapna_C_A_f039837fe4.webp"
             name="Dr. Swapna. C.A"
             position="Leading ENT"
             patients={500}
