@@ -2,14 +2,14 @@ import React from "react";
 import DoctorCard from "@/components/DoctorCard";
 const Doctors = () => {
   return (
-    <div className="w-full  h-[100vh] flex items-center font-poppins bg-[#f5f6f4]">
-      <div className="w-wrapper mx-auto">
+    <div className="w-full  flex items-center font-poppins bg-[#f5f6f4]">
+      <div className="w-full">
         <div className="--header flex justify-between items-center mb-10">
           <div className="--heading font-bold text-4xl">
             Our Qualified Doctors
           </div>
         </div>
-        <div className="--items w-full flex flex-wrap justify-between">
+        <div className=" w-full flex mobile:flex-wrap tablet:flex-nowrap tablet:gap-[2rem] justify-between mobile:gap-[1rem] py-[1rem]">
           <DoctorCard
             img="Dr_Swapna_C_A_f039837fe4.webp"
             name="Dr. Swapna. C.A"
@@ -17,7 +17,7 @@ const Doctors = () => {
             patients={500}
             hospital="Scent Clinic"
           />
-          {/* <DoctorCard
+          <DoctorCard
             img="doc2.png"
             name="Dr. Allison Pretty"
             position="Consultant Dentist"
@@ -51,7 +51,7 @@ const Doctors = () => {
             position="Leading Diagnostic Doctor"
             patients={900}
             hospital="iMedical Central Clinic, LA"
-          /> */}
+          />
         </div>
       </div>
     </div>

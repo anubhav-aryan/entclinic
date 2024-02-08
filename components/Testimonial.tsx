@@ -4,10 +4,10 @@ import InfoCard from "@/components/InfoCard";
 import TestimonialCard from "./TestimonialCard";
 const Testimonial = () => {
   return (
-    <div className="w-wrapper mx-auto h-[70vh] flex items-center font-poppins ">
+    <div className="w-fullflex items-center font-poppins ">
       <div className="w-full">
-        <div className="--heading font-bold text-4xl mb-10">Testimonials</div>
-        <div className="--items w-full flex flex-wrap justify-between">
+        <div className=" font-bold text-4xl mb-10">Testimonials</div>
+        <div className=" w-full flex mobile:flex-col tablet:flex-row justify-between mobile:gap-[1rem]">
           <TestimonialCard
             img="test1.png"
             name="Anubhav Aryan"

@@ -7,7 +7,7 @@ interface Props {
 }
 const TestimonialCard = ({ img, name, review }: Props) => {
   return (
-    <div className="w-[48%] flex justify-between items-start gap-4 p-6 bg-[#faefec] rounded-2xl hover:bg-[#CF7D4E]">
+    <div className="tablet:w-[48%] mobile:w-full flex justify-between items-start gap-4 tablet:p-6 mobile:p-2 bg-[#faefec] rounded-2xl hover:bg-[#CF7D4E] mobile:flex-col tab:flex-row">
       <Image
         src={`/${img}`}
         alt="logo"
@@ -17,44 +17,8 @@ const TestimonialCard = ({ img, name, review }: Props) => {
       />
       <div className="--testimonial-content flex flex-col h-full gap-2 ">
         <h1 className="--name text-2xl font-bold">{name}</h1>
-        {/* <div className="--rating-box flex gap-2">
-          <Image
-            src="/star.svg"
-            alt="logo"
-            width={60}
-            height={60}
-            className="w-3"
-          />
-          <Image
-            src="/star.svg"
-            alt="logo"
-            width={60}
-            height={60}
-            className="w-3"
-          />
-          <Image
-            src="/star.svg"
-            alt="logo"
-            width={60}
-            height={60}
-            className="w-3"
-          />
-          <Image
-            src="/star.svg"
-            alt="logo"
-            width={60}
-            height={60}
-            className="w-3"
-          />
-          <Image
-            src="/star.svg"
-            alt="logo"
-            width={60}
-            height={60}
-            className="w-3"
-          />
-        </div> */}
-        <div className="--review text-subheading">{review}</div>
+       
+        <div className="--review text-subheading mobile:break-words ">{review}</div>
       </div>
     </div>
   );

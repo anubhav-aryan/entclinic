@@ -15,7 +15,7 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       width: {
-        wrapper: "70%",
+        wrapper: "90%",
       },
       fontFamily: {
         poppins: "Poppins",
@@ -24,6 +24,11 @@ const config: Config = {
         subheading: "rgba(6, 33, 38, 0.7)",
       },
     },
+    screens:{
+      mobile:'320px',
+      tablet:'728px',
+      laptop:'1024px'
+    }
   },
   plugins: [],
 };

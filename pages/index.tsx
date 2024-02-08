@@ -10,7 +10,7 @@ import Appointment from "@/sections/Appointment";
 import Footer from "@/sections/Footer";
 const index = () => {
   return (
-    <div>
+    <div className="flex flex-col justify-center items-center px-[1rem] gap-[2rem]">
       <Header />
       <Hero />
       <Services />

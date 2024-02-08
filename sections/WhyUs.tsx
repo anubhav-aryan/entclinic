@@ -3,7 +3,7 @@ import Image from "next/image";
 import InfoCard from "@/components/InfoCard";
 const WhyUs = () => {
   return (
-    <div className="w-wrapper mx-auto h-[90vh] flex items-center font-poppins ">
+    <div className="w-full h-[90vh] flex items-center font-poppins ">
       <div className="w-full">
         <div className="--heading font-bold text-4xl mb-10">Why us?</div>
         <div className="--items w-full flex flex-wrap justify-between">

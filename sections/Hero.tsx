@@ -3,20 +3,20 @@ import Image from "next/image";
 import Label from "@/components/Label";
 export default function Hero() {
   return (
-    <div className="w-wrapper mx-auto my-8 ">
-      <div className="--content-wrapper w-full flex justify-between font-poppins">
-        <div className="--content w-[50%] h-full">
-          <div className="--heading text-6xl font-bold">
+    <div className="">
+      <div className="mobile:gap-[1rem] w-full flex justify-between font-poppins mobile:flex-col tablet:flex-row items-center">
+        <div className=" w-full h-full flex flex-col gap-[1rem]">
+          <div className=" tablet:text-6xl font-bold mobile:text-3xl mobile:text-center">
             Feel Comfort
             <br />
             Be Healthy
           </div>
-          <div className="--sub-heading text-subheading my-6">
+          <div className="--sub-heading text-subheading">
             Dr. Swapna's clinic for ENT, is a medical facility that specializes
             in diagnosing and treating disorders of the ears, nose, and throat
             (ENT).
           </div>
-          <div className="--informatics w-full h-fit p-6 bg-[#f5eae6] rounded-2xl flex flex-wrap gap-[2%]">
+          <div className="--informatics w-full h-fit p-6 bg-[#f5eae6] rounded-2xl flex gap-[2%] mobile:flex-col tablet:flex-row">
             <Label
               img={"Calendar.svg"}
               heading={"Make an Appointment"}
@@ -38,7 +38,7 @@ export default function Hero() {
               subheading={"Ask questions any time"}
             />
           </div>
-          <div className="w-full flex gap-8 items-center mt-6">
+          <div className="w-full flex gap-8 items-center mobile:flex-col tablet:flex-row mobile:flex-row">
             <button className="inline-flex items-center bg-[#24BEE0] border-0 rounded-full py-3 px-5 font-semibold focus:outline-none text-white">
               Make Appointment &rarr;
             </button>

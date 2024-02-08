@@ -9,7 +9,7 @@ interface Props {
 }
 const DoctorCard = ({ img, name, position, patients, hospital }: Props) => {
   return (
-    <div className="w-[30%] aspect-[1.2] rounded-2xl flex flex-col justify-between gap-4 bg-white cursor-pointer p-6 mb-6 hover:shadow-lg font-poppins transition-all duration-200 ease-linear">
+    <div className="mobile:w-[30%] tablet:w-[25%] laptop:flex-nowrap aspect-[1.2] rounded-2xl flex flex-col justify-between gap-4 bg-white cursor-pointer tablet:p-6 mobile:p-2  hover:shadow-lg font-poppins transition-all duration-200 ease-linear">
       <Image
         src={`/${img}`}
         alt="logo"
@@ -18,7 +18,7 @@ const DoctorCard = ({ img, name, position, patients, hospital }: Props) => {
         className="w-48"
       />
       <div className="">
-        <h1 className="--name text-2xl font-semibold">{name}</h1>
+        <h1 className="--name tablet:text-2xl font-semibold">{name}</h1>
         <h3 className="--position text-subheading text-sm">{position}</h3>
       </div>
       <div className="">
