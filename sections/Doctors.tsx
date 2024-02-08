@@ -9,7 +9,7 @@ const Doctors = () => {
             Our Qualified Doctors
           </div>
         </div>
-        <div className=" w-full flex mobile:flex-wrap tablet:flex-nowrap tablet:gap-[2rem] justify-between mobile:gap-[1rem] py-[1rem]">
+        <div className=" w-full flex mobile:flex-wrap laptop:flex-nowrap tablet:gap-[1rem] justify-around mobile:gap-[1rem] py-[1rem]">
           <DoctorCard
             img="Dr_Swapna_C_A_f039837fe4.webp"
             name="Dr. Swapna. C.A"

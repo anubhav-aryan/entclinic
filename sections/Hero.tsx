@@ -3,10 +3,9 @@ import Image from "next/image";
 import Label from "@/components/Label";
 export default function Hero() {
   return (
-    <div className="">
-      <div className="mobile:gap-[1rem] w-full flex justify-between font-poppins mobile:flex-col tablet:flex-row items-center">
+      <div className="mobile:gap-[1rem] w-full flex mobile:justify-between tablet:justify-center font-poppins mobile:flex-col tablet:flex-row items-center">
         <div className=" w-full h-full flex flex-col gap-[1rem]">
-          <div className=" tablet:text-6xl font-bold mobile:text-3xl mobile:text-center">
+          <div className=" tablet:text-6xl font-bold mobile:text-3xl mobile:text-left">
             Feel Comfort
             <br />
             Be Healthy
@@ -16,7 +15,7 @@ export default function Hero() {
             in diagnosing and treating disorders of the ears, nose, and throat
             (ENT).
           </div>
-          <div className="--informatics w-full h-fit p-6 bg-[#f5eae6] rounded-2xl flex gap-[2%] mobile:flex-col tablet:flex-row">
+          <div className="--informatics w-full h-fit p-6 bg-[#f5eae6] rounded-2xl flex gap-[2%] mobile:flex-col tablet:flex-row mobile:items-center tablet:flex-wrap">
             <Label
               img={"Calendar.svg"}
               heading={"Make an Appointment"}
@@ -57,6 +56,5 @@ export default function Hero() {
           className=""
         />
       </div>
-    </div>
   );
 }

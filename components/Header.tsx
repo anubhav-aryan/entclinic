@@ -4,8 +4,8 @@ import Link from "next/link";
 const Header = () => {
   return (
     <>
-      <div className="text-gray-400 body-font">
-        <div className=" w-full mx-auto flex flex-wrap flex-col md:flex-row items-center">
+      <div className="text-gray-400 body-font w-full">
+        <div className=" w-full flex mobile:flex-wrap laptop:flex-nowrap tablet:flex-row items-center justify-between mobile:flex-col mobile:items-center">
           <a className="flex title-font font-medium items-center text-white mb-4 md:mb-0">
             <Image
               src="/Final Logo Updated.svg"
@@ -15,13 +15,13 @@ const Header = () => {
               className="w-52"
             />
           </a>
-          <div className="flex flex-wrap laptop:items-center text-lg  font-medium justify-center mobile:items-start gap-8 text-[rgba(6, 33, 38, 0.6)]">
+          <div className="flex flex-wrap laptop:items-center text-lg laptop:justify-around font-medium justify-center mobile:items-start tablet:gap-8 mobile:gap-2 text-[rgba(6, 33, 38, 0.6)] w-full">
             <Link href="/">Home</Link>
             <Link href="/">Our Services</Link>
             {/* <Link href="/">Blog</Link> */}
             <Link href="/">About Us</Link>
             <Link href="/">Contact Us</Link>
-            <button className=" items-center bg-[#24BEE0] border-0 rounded-full py-3 px-5 font-semibold focus:outline-none text-white">
+            <button className=" items-center bg-[#24BEE0] border-0 rounded-full tablet:py-3 tablet:px-5 mobile:p-2 font-semibold focus:outline-none text-white mobile:hidden tablet:block">
             Make Appointment
           </button>
           </div>

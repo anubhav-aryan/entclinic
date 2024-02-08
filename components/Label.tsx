@@ -7,7 +7,7 @@ interface Props {
 }
 const Label = ({ img, heading, subheading }: Props) => {
   return (
-    <div className="label w-[49%] flex gap-2 mb-4">
+    <div className="label laptop:w-[49%] mobile:w-full flex gap-2 mb-4">
       <Image
         src={`/${img}`}
         alt="icon"

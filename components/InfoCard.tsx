@@ -15,8 +15,8 @@ const InfoCard = ({ img, heading, description }: Props) => {
         height={60}
         className="w-16"
       />
-      <h1 className="--heading tablet:text-2xl mobile:text-xl font-semibold mobile:break-words ">{heading}</h1>
-      <h3 className="--description text-subheading text-sm">{description}</h3>
+      <h1 className="--heading tablet:text-2xl mobile:text-sm laptop:text-3xl font-semibold mobile:break-words ">{heading}</h1>
+      <h3 className="--description text-subheading mobile:text-sm laptop:text-2xl">{description}</h3>
     </div>
   );
 };

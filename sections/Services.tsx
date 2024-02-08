@@ -2,7 +2,6 @@ import React from "react";
 import Image from "next/image";
 const Services = () => {
   return (
-    <div className="w-wrapper mx-auto h-[70vh] flex items-center font-poppins">
       <div className="w-full">
         <div className="--heading font-bold text-4xl mb-6">Our Services</div>
         <div className="--items w-full flex justify-between">
@@ -14,7 +13,7 @@ const Services = () => {
               height={300}
               className="w-full"
             />
-            <div className="--description font-medium text-xl mt-4">
+            <div className="--description font-medium tablet:tablet:text-xl mt-4">
               Ear infections
             </div>
           </div>
@@ -26,7 +25,7 @@ const Services = () => {
               height={300}
               className="w-full"
             />
-            <div className="--description font-medium text-xl mt-4">
+            <div className="--description font-medium tablet:text-xl mt-4">
               Hearing loss
             </div>
           </div>
@@ -38,7 +37,7 @@ const Services = () => {
               height={300}
               className="w-full"
             />
-            <div className="--description font-medium text-xl mt-4">
+            <div className="--description font-medium tablet:text-xl mt-4">
               Paediatric ENT problems
             </div>
           </div>
@@ -52,7 +51,7 @@ const Services = () => {
               height={300}
               className="w-full"
             />
-            <div className="--description font-medium text-xl mt-4">
+            <div className="--description font-medium tablet:text-xl mt-4">
               Thyroid Problems
             </div>
           </div>
@@ -64,7 +63,7 @@ const Services = () => {
               height={300}
               className="w-full"
             />
-            <div className="--description font-medium text-xl mt-4">
+            <div className="--description font-medium tablet:text-xl mt-4">
               Sleep apnea
             </div>
           </div>
@@ -76,13 +75,12 @@ const Services = () => {
               height={300}
               className="w-full"
             />
-            <div className="--description font-medium text-xl mt-4">
+            <div className="--description font-medium tablet:text-xl mt-4">
               Snoring
             </div>
           </div>
         </div>
       </div>
-    </div>
   );
 };
 
