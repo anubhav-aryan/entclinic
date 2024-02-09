@@ -42,9 +42,9 @@ export default function Hero() {
             <button className="inline-flex items-center bg-[#24BEE0] border-0 rounded-full py-3 px-5 font-semibold focus:outline-none text-white">
               Make Appointment &rarr;
             </button>
-            <div className="flex flex-col gap-2 text-[rgba(207, 125, 78, 1)] font-medium">
-              <p>Mon - Tues - Fri - Sat 10AM-1PM, 4PM-8PM</p>
-              <p>Wed - Thur 4PM-8PM</p>
+            <div className="flex flex-col gap-2 text-[rgba(207, 125, 78, 1)] font-medium text-xs">
+              <p>Mon - Tue - Fri - Sat 10AM-1PM, 4PM-8PM</p>
+              <p>Wed - Thu 4PM-8PM</p>
               <p>Sun - Closed</p>
             </div>
           </div>

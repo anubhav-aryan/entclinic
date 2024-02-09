@@ -19,18 +19,18 @@ const WhyUs = () => {
           />
           <InfoCard
             img="info3.svg"
-            heading="Medical Support"
-            description="We have a huge amount of high quality medicine from Germany"
+            heading="Patient education"
+            description="We empower our patients with knowledge about their conditions and treatment options, allowing them to make informed decisions about their health and participate actively in their care."
           />
           <InfoCard
             img="info4.svg"
-            heading="Advanced technology"
-            description="Our clinic is equipped with state-of-the-art diagnostic tools and innovative treatment options to ensure accurate diagnoses."
+            heading="Patient testimonials"
+            description="Don't just take our word for it – read testimonials from satisfied patients who have experienced the quality care and positive outcomes that our clinic provides."
           />
           <InfoCard
             img="info5.svg"
             heading="24/7 Clean"
-            description="We care about having a clean and safe rooms for our patients"
+            description="We care about having a clean and safe environment for our patients"
           />
           <InfoCard
             img="info6.svg"
