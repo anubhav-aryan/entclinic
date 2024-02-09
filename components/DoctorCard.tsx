@@ -6,8 +6,9 @@ interface Props {
   position: string;
   patients: number;
   hospital: string;
+  education: string;
 }
-const DoctorCard = ({ img, name, position, patients, hospital }: Props) => {
+const DoctorCard = ({ img, name, position, patients, hospital, education }: Props) => {
   return (
     <div className="mobile:w-[30%] tablet:w-[45%] laptop:flex-nowrap aspect-[1.2] rounded-2xl flex flex-col justify-between gap-4 bg-white cursor-pointer tablet:p-6 mobile:p-2  hover:shadow-lg font-poppins transition-all duration-200 ease-linear">
       <Image
@@ -19,6 +20,7 @@ const DoctorCard = ({ img, name, position, patients, hospital }: Props) => {
       />
       <div className="">
         <h1 className="--name tablet:text-2xl font-semibold">{name}</h1>
+        <h3 className="--education text-subheading text-sm">{education}</h3>
         <h3 className="--position text-subheading text-sm">{position}</h3>
       </div>
       <div className="">

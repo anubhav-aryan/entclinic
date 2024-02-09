@@ -13,6 +13,7 @@ const Doctors = () => {
           <DoctorCard
             img="Dr_Swapna_C_A_f039837fe4.webp"
             name="Dr. Swapna. C.A"
+            education="MBBS, DLO"
             position="Leading ENT"
             patients={500}
             hospital="with 20+ Years Of Experience"
