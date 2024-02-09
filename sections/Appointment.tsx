@@ -64,13 +64,7 @@ const Appointment = () => {
           className=" tablet:px-6 tablet:py-4 mobile:px-3 mobile:py-2 bg-[#24bee0] text-xl font-medium rounded-full text-white flex gap-4 items-center mx-auto"
         >
           <p>Send</p>
-          <Image
-            src="/send.png"
-            alt=""
-            width={30}
-            height={30}
-            className="w-4"
-          />
+          
         </button>
       </div>
     </div>
