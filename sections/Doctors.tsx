@@ -6,7 +6,7 @@ const Doctors = () => {
       <div className="w-full">
         <div className="--header flex justify-between items-center mb-10">
           <div className="--heading font-bold text-4xl">
-            Our Qualified Doctors
+            Our Qualified Doctor
           </div>
         </div>
         <div className=" w-full flex mobile:flex-wrap laptop:flex-nowrap tablet:gap-[1rem] justify-around mobile:gap-[1rem] py-[1rem]">
@@ -17,7 +17,7 @@ const Doctors = () => {
             patients={500}
             hospital="Scent Clinic"
           />
-          <DoctorCard
+          {/* <DoctorCard
             img="doc2.png"
             name="Dr. Allison Pretty"
             position="Consultant Dentist"
@@ -51,7 +51,7 @@ const Doctors = () => {
             position="Leading Diagnostic Doctor"
             patients={900}
             hospital="iMedical Central Clinic, LA"
-          />
+          /> */}
         </div>
       </div>
     </div>

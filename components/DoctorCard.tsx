@@ -13,9 +13,9 @@ const DoctorCard = ({ img, name, position, patients, hospital }: Props) => {
       <Image
         src={`/${img}`}
         alt="logo"
-        width={100}
-        height={100}
-        className="w-48"
+        width={700}
+        height={700}
+        className="w-72"
       />
       <div className="">
         <h1 className="--name tablet:text-2xl font-semibold">{name}</h1>

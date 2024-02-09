@@ -21,8 +21,8 @@ const Footer = () => {
           <p className="text-subheading">
             #27, Silk mill, Gandhi Nagar, Vellore
           </p>
-          <p>Call: (321) 428 321 3902</p>
-          <div className="socials flex gap-4">
+          <p>Call: 9342683675</p>
+          {/* <div className="socials flex gap-4">
             <button
               type="button"
               className="p-2 bg-[rgba(0,0,0,0.2)] rounded-full"
@@ -59,7 +59,7 @@ const Footer = () => {
                 className="w-4"
               />
             </button>
-          </div>
+          </div> */}
         </div>
         <div className="footer-col-2 flex flex-col gap-2">
           <h1 className="text-xl font-medium">Explore</h1>
@@ -76,7 +76,7 @@ const Footer = () => {
             Contact
           </Link>
         </div>
-        <div className="footer-col-3 flex flex-col gap-2">
+        {/* <div className="footer-col-3 flex flex-col gap-2">
           <h1 className="text-xl font-medium">Legal</h1>
           <Link href="" className="text-subheading text-sm">
             Privacy Policy
@@ -90,8 +90,8 @@ const Footer = () => {
           <Link href="" className="text-subheading text-sm">
             Help Center
           </Link>
-        </div>
-        <div className="footer-col-4 flex flex-col gap-2">
+        </div> */}
+        {/* <div className="footer-col-4 flex flex-col gap-2">
           <h1 className="text-xl font-medium">Subscribe</h1>
           <p className="text-subheading text-sm">
             Subscribe to get the latest news from us
@@ -111,7 +111,7 @@ const Footer = () => {
               Subscribe
             </button>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

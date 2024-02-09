@@ -16,16 +16,16 @@ export default function Hero() {
             (ENT).
           </div>
           <div className="--informatics w-full h-fit p-6 bg-[#f5eae6] rounded-2xl flex gap-[2%] mobile:flex-col tablet:flex-row mobile:items-center tablet:flex-wrap">
-            <Label
+            {/* <Label
               img={"Calendar.svg"}
               heading={"Make an Appointment"}
               subheading={"Select best time for you."}
-            />
-            <Label
+            /> */}
+            {/* <Label
               img={"user.svg"}
               heading={"Find the Best Doctor"}
               subheading={"find the best doctor in a minute"}
-            />
+            /> */}
             <Label
               img={"Location.svg"}
               heading={"Visit the clinic"}
