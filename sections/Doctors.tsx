@@ -15,7 +15,7 @@ const Doctors = () => {
             name="Dr. Swapna. C.A"
             position="Leading ENT"
             patients={500}
-            hospital="Scent Clinic"
+            hospital="with 15+ Years Of Experiance"
           />
           {/* <DoctorCard
             img="doc2.png"
