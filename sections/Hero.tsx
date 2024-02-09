@@ -43,9 +43,9 @@ export default function Hero() {
               Make Appointment &rarr;
             </button>
             <div className="flex flex-col gap-2 text-[rgba(207, 125, 78, 1)] font-medium">
-              <p>Mon-Tues-Fri-Sat 10AM-1PM, 3PM-7PM</p>
-              <p>Wed-Thur 4PM-7PM</p>
-              <p>Sun Closed</p>
+              <p>Mon - Tues - Fri - Sat 10AM-1PM, 4PM-8PM</p>
+              <p>Wed - Thur 4PM-8PM</p>
+              <p>Sun - Closed</p>
             </div>
           </div>
         </Link>
