@@ -6,10 +6,8 @@ export default function Hero() {
   return (
     <div className="mobile:gap-[1rem] w-full flex mobile:justify-between tablet:justify-center font-poppins mobile:flex-col tablet:flex-row items-center">
       <div className=" w-full h-full flex flex-col gap-[1rem]">
-        <div className=" tablet:text-6xl font-bold mobile:text-3xl mobile:text-left">
-          Feel Comfort
-          <br />
-          Be Healthy
+        <div className=" tablet:text-5xl font-bold mobile:text-3xl mobile:text-left">
+          Feel The Senses 
         </div>
         <div className="--sub-heading text-subheading">
           Dr. Swapna's clinic for ENT, is a medical facility that specializes in

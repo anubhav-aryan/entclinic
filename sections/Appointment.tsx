@@ -2,11 +2,12 @@ import React from "react";
 import Image from "next/image";
 const Appointment = () => {
   return (
-    <div className="flex mobile:items-center font-poppins w-full tablet:items-start" id="appointment">
+    <div
+      className="flex mobile:items-center font-poppins w-full tablet:items-start"
+      id="appointment"
+    >
       <div className="w-full">
-        <div className=" font-bold text-4xl mb-10">
-          Make Appointment
-        </div>
+        <div className=" font-bold text-4xl mb-10">Make Appointment</div>
         <div className="--form w-[80%] mx-auto flex flex-col justify-between">
           <input
             type="text"
@@ -64,7 +65,6 @@ const Appointment = () => {
           className=" tablet:px-6 tablet:py-4 mobile:px-3 mobile:py-2 bg-[#24bee0] text-xl font-medium rounded-full text-white flex gap-4 items-center mx-auto"
         >
           <p>Send</p>
-          
         </button>
       </div>
     </div>
