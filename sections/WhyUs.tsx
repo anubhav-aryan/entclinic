@@ -14,8 +14,8 @@ const WhyUs = () => {
           />
           <InfoCard
             img="info2.svg"
-            heading="Insurance"
-            description="You can get our insurance to not care of any financial difficulties in future."
+            heading="Patient-centered care"
+            description="We prioritize your comfort and well-being, offering personalized treatment plans tailored to your specific needs and concerns."
           />
           <InfoCard
             img="info3.svg"
@@ -24,8 +24,8 @@ const WhyUs = () => {
           />
           <InfoCard
             img="info4.svg"
-            heading="Lab Achievements"
-            description="iMedical has 12 laboratory achievements that have world level impact in medicine."
+            heading="Advanced technology"
+            description="Our clinic is equipped with state-of-the-art diagnostic tools and innovative treatment options to ensure accurate diagnoses."
           />
           <InfoCard
             img="info5.svg"
