@@ -7,11 +7,11 @@ const Services = () => {
         <div className="--items w-full flex justify-between">
           <div className="--service-item w-[30%] ">
             <Image
-              src="/service1.png"
+              src="/earinfection.jpeg"
               alt="logo"
               width={300}
               height={300}
-              className="w-full"
+              className="w-1/3"
             />
             <div className="--description font-medium tablet:tablet:text-xl mt-4">
               Ear infections
@@ -19,11 +19,11 @@ const Services = () => {
           </div>
           <div className="--service-item w-[30%] ">
             <Image
-              src="/service2.png"
+              src="/hearingloss.jpeg"
               alt="logo"
               width={300}
               height={300}
-              className="w-full"
+              className="w-1/3"
             />
             <div className="--description font-medium tablet:text-xl mt-4">
               Hearing loss
@@ -35,7 +35,7 @@ const Services = () => {
               alt="logo"
               width={300}
               height={300}
-              className="w-full"
+              className="w-1/3"
             />
             <div className="--description font-medium tablet:text-xl mt-4">
               Paediatric ENT problems
@@ -45,11 +45,11 @@ const Services = () => {
         <div className="--items w-full flex justify-between py-10">
           <div className="--service-item w-[30%] ">
             <Image
-              src="/service2.png"
+              src="/thyroid.jpeg"
               alt="logo"
               width={300}
               height={300}
-              className="w-full"
+              className="w-1/3"
             />
             <div className="--description font-medium tablet:text-xl mt-4">
               Thyroid Problems
@@ -57,11 +57,11 @@ const Services = () => {
           </div>
           <div className="--service-item w-[30%] ">
             <Image
-              src="/service2.png"
+              src="/sleepapnea.jpeg"
               alt="logo"
               width={300}
               height={300}
-              className="w-full"
+              className="w-1/3"
             />
             <div className="--description font-medium tablet:text-xl mt-4">
               Sleep apnea
@@ -69,11 +69,11 @@ const Services = () => {
           </div>
           <div className="--service-item w-[30%] ">
             <Image
-              src="/service2.png"
+              src="/snoring.jpeg"
               alt="logo"
               width={300}
               height={300}
-              className="w-full"
+              className="w-1/3"
             />
             <div className="--description font-medium tablet:text-xl mt-4">
               Snoring
