@@ -7,11 +7,19 @@ export default function Hero() {
     <div className="mobile:gap-[1rem] w-full flex mobile:justify-between tablet:justify-center font-poppins mobile:flex-col tablet:flex-row items-center">
       <div className=" w-full h-full flex flex-col gap-[1rem]">
         <div className=" tablet:text-5xl font-bold mobile:text-3xl mobile:text-left">
-          Feel The Senses 
+          Feel The Senses
         </div>
         <div className="--sub-heading text-subheading">
-          Dr. Swapna's clinic for ENT, is a medical facility that specializes in
-          diagnosing and treating disorders of the ears, nose, and throat (ENT).
+          SCENT- Dr. Swapna's clinic for ENT, is a medical facility that
+          specializes in diagnosing and treating disorders of the ears, nose,
+          and throat (ENT). With the expertise in the anatomy and physiology of
+          these areas of the head and neck, here are some of the common
+          conditions in which treatment is done:
+          <br />
+          Ear Infections, Hearing Loss, Paediatric ENT Problems, Thyroid
+          Problems, Sleep Apnea, Snoring, Tonsillitis, Nosebleeds, Voice
+          Problems, Facial Pain, Tinnitus (ringing in the ears), Vertigo
+          (dizziness), Allergies and Sinus Problems, Head and Neck Tumors.
         </div>
         <div className="--informatics w-full h-fit p-6 bg-[#f5eae6] rounded-2xl flex gap-[2%] mobile:flex-col tablet:flex-row mobile:items-center tablet:flex-wrap">
           {/* <Label
