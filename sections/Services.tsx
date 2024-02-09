@@ -17,7 +17,7 @@ const Services = () => {
             />
           </div>
           <div className="--description font-medium tablet:text-xl mt-4">
-            Ear infections
+            Ear Infections
           </div>
         </div>
         <div className="--service-item w-[30%] ">
@@ -31,7 +31,7 @@ const Services = () => {
             />
           </div>
           <div className="--description font-medium tablet:text-xl mt-4">
-            Hearing loss
+            Hearing Loss
           </div>
         </div>
         <div className="--service-item w-[30%] ">
@@ -45,7 +45,7 @@ const Services = () => {
             />
           </div>
           <div className="--description font-medium tablet:text-xl mt-4">
-            Paediatric ENT problems
+            Paediatric ENT Problems
           </div>
         </div>
       </div>
@@ -75,7 +75,7 @@ const Services = () => {
             />
           </div>
           <div className="--description font-medium tablet:text-xl mt-4">
-            Sleep apnea
+            Sleep Apnea
           </div>
         </div>
         <div className="--service-item w-[30%] ">

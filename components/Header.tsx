@@ -12,7 +12,7 @@ const Header = () => {
               alt="logo"
               width={200}
               height={200}
-              className="w-52"
+              className="w-80"
             />
           </a>
           <div className="flex flex-wrap laptop:items-center text-lg laptop:justify-around font-medium justify-center mobile:items-start tablet:gap-8 mobile:gap-2 text-[rgba(6, 33, 38, 0.6)] w-full">
