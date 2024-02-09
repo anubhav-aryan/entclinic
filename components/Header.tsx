@@ -17,15 +17,16 @@ const Header = () => {
           </a>
           <div className="flex flex-wrap laptop:items-center text-lg laptop:justify-around font-medium justify-center mobile:items-start tablet:gap-8 mobile:gap-2 text-[rgba(6, 33, 38, 0.6)] w-full">
             <Link href="/">Home</Link>
-            <Link href="/">Our Services</Link>
+            <Link href="/#services">Our Services</Link>
             {/* <Link href="/">Blog</Link> */}
-            <Link href="/">About Us</Link>
-            <Link href="/">Contact Us</Link>
-            <button className=" items-center bg-[#24BEE0] border-0 rounded-full tablet:py-3 tablet:px-5 mobile:p-2 font-semibold focus:outline-none text-white mobile:hidden tablet:block">
-            Make Appointment
-          </button>
+            {/* <Link href="/">About Us</Link> */}
+            <Link href="/#footer">Contact Us</Link>
+            <Link href="/#appointment">
+              <button className=" items-center bg-[#24BEE0] border-0 rounded-full tablet:py-3 tablet:px-5 mobile:p-2 font-semibold focus:outline-none text-white mobile:hidden tablet:block">
+                Make Appointment
+              </button>
+            </Link>
           </div>
-        
         </div>
       </div>
     </>

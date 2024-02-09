@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 const Appointment = () => {
   return (
-    <div className="flex mobile:items-center font-poppins w-full tablet:items-start">
+    <div className="flex mobile:items-center font-poppins w-full tablet:items-start" id="appointment">
       <div className="w-full">
         <div className=" font-bold text-4xl mb-10">
           Make Appointment

@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 const Services = () => {
   return (
-      <div className="w-full">
+      <div className="w-full" id="services">
         <div className="--heading font-bold text-4xl mb-6">Our Services</div>
         <div className="--items w-full flex justify-between">
           <div className="--service-item w-[30%] ">
