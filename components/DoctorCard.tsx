@@ -4,7 +4,7 @@ interface Props {
   img: string;
   name: string;
   position: string;
-  patients: number;
+  patients: string;
   hospital: string;
   education: string;
 }
