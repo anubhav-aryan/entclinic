@@ -22,7 +22,7 @@ const Footer = () => {
             No. 27, Door. No. 2, Vellore - Katpadi Road, Silk Mill, Gandhi
             Nagar, Katpadi, Vellore- 632006
           </p>
-          <p>Call: 9342683675</p>
+          <p>Call: +91 9342683675</p>
           {/* <div className="socials flex gap-4">
             <button
               type="button"

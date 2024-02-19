@@ -9,24 +9,29 @@ export default function Hero() {
         <div className=" tablet:text-5xl font-bold mobile:text-3xl mobile:text-left">
           Feel The Senses
         </div>
-        <div className="--sub-heading text-subheading">
-          SCENT, Dr. Swapna's clinic, specializes in the delicate balance of
-          your ears, nose, and throat (ENT). With expert care and in-depth
-          knowledge of this complex head and neck region, we diagnose and treat
-          a wide range of conditions, including:
-          <br />
-          Ear Infections & Hearing Loss, Pediatric ENT Concerns, Sleep Apnea &
-          Snoring, Tonsillitis & Nosebleeds, Voice Problems & Facial Pain,
-          Tinnitus & Vertigo, Nasal Obstructions, Allergies & Sinus Problems,
-          Thyroid Diseases, Salivary Gland Disorders, and Head & Neck Tumors.
-          <br />
-          ENT clinics typically offer a variety of diagnostic and treatment
-          services, including:
-          <br />
-          Physical Examinations, Audiometry (hearing tests), Allergy Testing
-          Imaging tests, such as X-rays, CT scans, and MRIs, Endoscopy (visual
-          examination of the inside of the ears, nose, and throat), Lab
-          investigations, Medications, and Surgery.
+        <div className="--sub-heading text-subheading leading-6">
+          <p>
+            SCENT, Dr. Swapna's clinic, specializes in the delicate balance of
+            your ears, nose, and throat (ENT). With expert care and in-depth
+            knowledge of this complex head and neck region, we diagnose and
+            treat a wide range of conditions, including:
+          </p>
+          <p className="mt-2">
+            Ear Infections & Hearing Loss, Pediatric ENT Concerns, Sleep Apnea &
+            Snoring, Tonsillitis & Nosebleeds, Voice Problems & Facial Pain,
+            Tinnitus & Vertigo, Nasal Obstructions, Allergies & Sinus Problems,
+            Thyroid Diseases, Salivary Gland Disorders, and Head & Neck Tumors.
+          </p>
+          <p className="mt-2">
+            ENT clinics typically offer a variety of diagnostic and treatment
+            services, including:
+          </p>
+          <p className="mt-2">
+            Physical Examinations, Audiometry (hearing tests), Allergy Testing
+            Imaging tests, such as X-rays, CT scans, and MRIs, Endoscopy (visual
+            examination of the inside of the ears, nose, and throat), Lab
+            investigations, Medications, and Surgery.
+          </p>
         </div>
         <div className="--informatics w-full h-fit p-6 bg-[#f5eae6] rounded-2xl flex gap-[2%] mobile:flex-col tablet:flex-row mobile:items-center tablet:flex-wrap">
           {/* <Label

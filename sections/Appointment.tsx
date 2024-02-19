@@ -8,7 +8,7 @@ const Appointment = () => {
     >
       <div className="w-full">
         <div className=" font-bold text-4xl mb-10">Make Appointment</div>
-        <div className="--form w-[80%] mx-auto flex flex-col justify-between">
+        <div className="--form w-full tablet:w-[80%] mx-auto flex flex-col justify-between">
           <input
             type="text"
             name=""
@@ -62,9 +62,9 @@ const Appointment = () => {
         </div>
         <button
           type="button"
-          className=" tablet:px-6 tablet:py-4 mobile:px-3 mobile:py-2 bg-[#24bee0] text-xl font-medium rounded-full text-white flex gap-4 items-center mx-auto"
+          className=" tablet:px-6 tablet:py-4 mobile:px-6 mobile:py-2 bg-[#24bee0] text-xl font-medium rounded-full text-white flex gap-4 items-center mx-auto"
         >
-          <p>Send</p>
+          Send
         </button>
       </div>
     </div>

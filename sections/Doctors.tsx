@@ -2,13 +2,13 @@ import React from "react";
 import DoctorCard from "@/components/DoctorCard";
 const Doctors = () => {
   return (
-    <div className="w-full  flex items-center font-poppins bg-[#f5f6f4]">
+    <div className="w-full  flex items-center font-poppins bg-[#f5f6f4] rounded-lg">
       <div className="w-full">
-        <div className="--header flex justify-between items-center mb-10">
+        {/* <div className="--header flex justify-between items-center mb-10">
           <div className="--heading font-bold text-4xl">
             Our Qualified Doctor
           </div>
-        </div>
+        </div> */}
         <div className=" w-full flex mobile:flex-wrap laptop:flex-nowrap tablet:gap-[1rem] justify-around mobile:gap-[1rem] py-[1rem]">
           <DoctorCard
             img="Dr_Swapna_C_A_f039837fe4.webp"
