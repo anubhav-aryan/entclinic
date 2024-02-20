@@ -22,9 +22,9 @@ const index = () => {
       <Services />
       <WhyUs />
       <Doctors />
+      <Appointment />
       <AnalyticLabel />
       <Testimonial />
-      <Appointment />
       <Footer />
     </div>
   );

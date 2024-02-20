@@ -31,7 +31,7 @@ const Label = ({ img, heading, subheading, link, onClickHandler }: Props) => {
   }
   return (
     <div
-      className="label laptop:w-[49%] mobile:w-full flex gap-2 mb-4"
+      className="label laptop:w-[49%] mobile:w-full flex gap-2 mb-4 cursor-pointer"
       onClick={() => {
         onClickHandler && onClickHandler(true);
       }}
