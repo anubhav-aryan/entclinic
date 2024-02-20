@@ -48,6 +48,9 @@ export default function Hero() {
             img={"Location.svg"}
             heading={"Visit the clinic"}
             subheading={"take care of your issues"}
+            link={
+              "https://www.google.com/maps/dir//scent+clinic+vellore/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bad47f93fa3063d:0xd432109c39374bff?sa=X&ved=2ahUKEwiCvP7wsrqEAxUQqFYBHWnmBhcQ9Rd6BAhcEAA"
+            }
           />
           <Label
             img={"Message.svg"}
