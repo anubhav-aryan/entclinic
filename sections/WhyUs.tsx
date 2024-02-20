@@ -14,17 +14,17 @@ const WhyUs = () => {
           />
           <InfoCard
             img="info2.svg"
-            heading="Patient-centered care"
+            heading="Patient-Centered Care"
             description="We prioritize your comfort and well-being, offering personalized treatment plans tailored to your specific needs and concerns."
           />
           <InfoCard
             img="info3.svg"
-            heading="Patient education"
+            heading="Patient Education"
             description="We empower our patients with knowledge about their conditions and treatment options, allowing them to make informed decisions about their health and participate actively in their care."
           />
           <InfoCard
             img="info4.svg"
-            heading="Patient testimonials"
+            heading="Patient Testimonials"
             description="Don't just take our word for it – read testimonials from satisfied patients who have experienced the quality care and positive outcomes that our clinic provides."
           />
           <InfoCard
