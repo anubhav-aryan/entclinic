@@ -8,9 +8,12 @@ import Doctors from "@/sections/Doctors";
 import AnalyticLabel from "@/components/AnalyticLabel";
 import Appointment from "@/sections/Appointment";
 import Footer from "@/sections/Footer";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 const index = () => {
   return (
     <div className="flex flex-col justify-center items-center tablet:px-[13rem] mobile:px-[2rem] gap-[2rem]">
+      <ToastContainer />
       <Header />
       <Hero />
       <Services />
