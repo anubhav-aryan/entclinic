@@ -6,12 +6,35 @@ interface Props {
   heading: string;
   subheading: string;
   link?: string;
+  onClickHandler?: React.Dispatch<React.SetStateAction<boolean>>;
 }
-const Label = ({ img, heading, subheading, link }: Props) => {
+const Label = ({ img, heading, subheading, link, onClickHandler }: Props) => {
+  if (link) {
+    return (
+      <Link
+        href={link}
+        className="label laptop:w-[49%] mobile:w-full flex gap-2 mb-4"
+      >
+        <Image
+          src={`/${img}`}
+          alt="icon"
+          width={60}
+          height={60}
+          className="w-8 h-8"
+        />
+        <div className="content">
+          <p className=" font-medium">{heading}</p>
+          <p className="text-sm">{subheading}</p>
+        </div>
+      </Link>
+    );
+  }
   return (
-    <Link
-      href={`${link ?? "/"}`}
+    <div
       className="label laptop:w-[49%] mobile:w-full flex gap-2 mb-4"
+      onClick={() => {
+        onClickHandler && onClickHandler(true);
+      }}
     >
       <Image
         src={`/${img}`}
@@ -24,7 +47,7 @@ const Label = ({ img, heading, subheading, link }: Props) => {
         <p className=" font-medium">{heading}</p>
         <p className="text-sm">{subheading}</p>
       </div>
-    </Link>
+    </div>
   );
 };
 

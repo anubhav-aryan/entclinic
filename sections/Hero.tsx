@@ -1,10 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import Label from "@/components/Label";
 import Link from "next/link";
+import AskQuestion from "@/components/AskQuestion";
 export default function Hero() {
+  const [showQuestionModal, setQuestionModal] = useState(false);
   return (
-    <div className="mobile:gap-[1rem] w-full flex mobile:justify-between tablet:justify-center font-poppins mobile:flex-col tablet:flex-row items-center">
+    <div className="mobile:gap-[1rem] w-full flex mobile:justify-between tablet:justify-center font-poppins mobile:flex-col tablet:flex-row items-center relative">
+      {showQuestionModal && (
+        <>
+          <AskQuestion showModal={setQuestionModal} />
+          <div
+            className="overlay fixed top-0 left-0 w-screen h-screen z-[120] bg-[rgba(0,0,0,0.2)] cursor-pointer "
+            onClick={() => setQuestionModal(false)}
+          ></div>
+        </>
+      )}
+
       <div className=" w-full h-full flex flex-col gap-[1rem]">
         <div className=" tablet:text-5xl font-bold mobile:text-3xl mobile:text-left">
           Feel The Senses
@@ -56,6 +68,7 @@ export default function Hero() {
             img={"Message.svg"}
             heading={"Ask Questions"}
             subheading={"Ask questions any time"}
+            onClickHandler={setQuestionModal}
           />
         </div>
         <Link href="/#appointment">

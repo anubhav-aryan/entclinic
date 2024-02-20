@@ -7,7 +7,7 @@ interface Props {
 }
 const TestimonialCard = ({ img, name, review }: Props) => {
   return (
-    <div className="tablet:w-[48%] mobile:w-full flex justify-between items-start gap-4 tablet:p-6 mobile:p-3 bg-[#faefec] rounded-2xl hover:bg-[#CF7D4E] mobile:flex-col tab:flex-row">
+    <div className="tablet:w-[48%] mobile:w-full flex justify-between items-start gap-4 tablet:p-6 mobile:p-3 bg-[#faefec] rounded-2xl hover:bg-[#e79c71] mobile:flex-col tab:flex-row transition-all duration-300 ease-linear">
       <Image
         src={`/${img}`}
         alt="logo"

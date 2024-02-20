@@ -12,7 +12,10 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 const index = () => {
   return (
-    <div className="flex flex-col justify-center items-center tablet:px-[13rem] mobile:px-[2rem] gap-[2rem]">
+    <div
+      className="flex flex-col justify-center items-center tablet:px-[4rem] laptop:px-[13rem]
+     mobile:px-[2rem] gap-[2rem] overflow-x-hidden"
+    >
       <ToastContainer />
       <Header />
       <Hero />
